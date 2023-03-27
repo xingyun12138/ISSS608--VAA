@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "ISSS608-VAA"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: Hands-on-Exercises
+        menu: 
+          - text: Week 1
+            href: Hands_on_exercises/exercise1/exercise1.qmd
+          - text: Week 2
+            href: Hands_on_exercises/exercise2/exercise2.qmd
+      - text: Take-Home-Exercises
+        menu: 
+          - text: Week 1
+            href: TakeHomeExercises/exercise1/exercise1.qmd
+          - text: Week 2
+            href: TakeHomeExercises/exercise2/exercise2.qmd
+          - text: Week 3
+            href: TakeHomeExercises/exercise3/exercise3.qmd
+          - text: Week 4
+            href: TakeHomeExercises/TakeHomeEx4/TakeHomeEx4.qmd  
+      - text: In-Class-Exercises
+        menu: 
+          - text: Week 3
+            href: InClassExercises/exercise3/exercise3.qmd
+          - text: Week 4
+            href: InClassExercises/exercise4/exercise4.qmd
+          - text: Week 5
+            href: InClassExercises/exercise5/exercise5.qmd
+          - text: Week 7
+            href: InClassExercises/exercise7/exercise7.qmd
+          - text: Week 8
+            href: InClassExercises/exercise8/exercise8.qmd
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+
